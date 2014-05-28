@@ -1,0 +1,17 @@
+{
+    "name": "game1",
+    "description": "Some game code, I dunno",
+    "copyright": "Copyright © 2014, w0rp",
+    "authors": ["w0rp"],
+    "targetPath": "bin",
+    "dependencies": {
+        "derelict-gl3": {
+            "version": "1.0.0",
+            "path": "../DerelictGL3"
+        },
+        "derelict-glfw3": {
+            "version": "1.0.0",
+            "path": "../DerelictGLFW3"
+        }
+    }
+}
