@@ -31,7 +31,7 @@ public:
 
         // OpenGL 3.3 without backwards compatibility is used.
         // This is a version likely to work on Mac OSX, 
-        // which is the lowest of the denominators.
+        // which has the least modern implementation.
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
