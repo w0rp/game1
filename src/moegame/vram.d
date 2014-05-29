@@ -220,6 +220,9 @@ struct GPUProgram {
 private:
     GLuint _id;
 public:
+    @disable this();
+    @disable this(this);
+
     @trusted nothrow
     this(A...)(A shaderList) if(allSatisfy!(isSomeShader, A)) {
         _id = glCreateProgram();
